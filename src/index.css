@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --background : #ECF0F1;
+    --skillsection : #171f33;
+    --surface : #283646;
+    --textprimary : #2c3e50;
+    --textsecondary : #34495e;
+    --headingprimary : #13374e;
+    --headingsecondary : #25629e;
+    --accent : #444949;
+    --info : #2a8aeb;
+}
+a {
+    color: var(--accent);
+}
+/* #131e32 */
